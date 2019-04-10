@@ -1,0 +1,272 @@
+<!DOCTYPE html><head>I
+ 
+<title>Dia Internacional de la Madre Tierra</title>
+<meta charset="utf-8">
+<meta name="viewport"content="width=device-width,initial-scale=1">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema.proyecto.min.css"/>
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css"/>
+<link rel="stylesheet" href="css/theme.app4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+
+<!----Menu Lateral---->
+<link rel="stylesheet" href="css/sldr.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jsplug.js"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/cecelebra.jpg','imagenes/historia-2.jpg','imagenes/habitamos-2.jpg','imagenes/armonia-2.jpg','imagenes/sostenible-2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>Dia Internacioanl de la Madre Tierra 22 de Abril</h1>
+ </div>
+ <div class="container">
+ <div id="sidebar">
+<ul data-role="listview"data-theme="a" class="ui-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Porque se celebra?</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Historia del Dia</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3"class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>La Tierra que habitamos</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4"class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Dialogo sobre la armonia con la naturaleza</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5"class="ui-btn ui-icon-right ui-icon-carat-r">
+<h2>Hacia una Tierra Sostenible</h2>
+</a>
+</li>
+</ul>
+</div>
+  
+<div class="main-content">
+<div class="swipe-area"></div>
+   <a href="#" data-toggle=".container" id="sidebar-toggle">
+   <span class="bar"></span>
+   <span class="bar"></span>
+   <span class="bar"></span>
+   </a>
+  </div>
+  </div>
+  <center>
+  <br>
+  <div class="slider">
+   <ul>
+   <li><img src="imagenes/tierra-1.jpg" alt="sldr"></li>
+   <li><img src="imagenes/tierra-2.jpg" alt="sldr2"></li>
+   <li><img src="imagenes/tierra-3.jpg" alt="sldr3"></li>
+   <li><img src="imagenes/tierra-4.jpg" alt="sldr4"></li>
+   <li><img src="imagenes/tierra-5.jpg" alt="sldr5"></li>
+   <li><img src="imagenes/tierra-6.jpg" alt="sldr6"></li>
+   <li><img src="imagenes/tierra-7.jpg" alt="sldr7"></li>
+   <li><img src="imagenes/tierra-8.jpg" alt="sldr8"></li>
+</ul>
+</div>
+</center>
+<center>
+<div> <data-role="main" class="ui-content">
+<br> <br> <br> <br> <br> <br> <br> <br> <br>
+<div data-role="collapsible" data-content-theme="false">
+<h1>Realizado por:</h1>
+<h2>Andy Cruz Paredez Mendez</h2>
+<p>4° Semestre, Grupo "F"</p>
+<h1>Especialidad:</h1>
+<p>Programacion</p>
+<h2>Submodulo:</h2>
+<p>Desarrola Aplicaciones Moviles</p>
+<h2>Docente:</h2>
+<p>Lic.Jose Antonio Gomez Hernandez</p>
+</div>
+</div>
+</center>
+
+<div> <data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<h4>Dia de la Madre Tierra</h4>
+<h4>Andy Cruz Paredez Mendez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+</div>
+</div>
+</div>
+ 
+<!--Pagina 1-->		
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Por que se celebra?</h1>
+ </div>
+<center>
+<div class="ui-content" onMouseOver="" data-role="main">
+<img src="imagenes/porquesecelebra.jpg" name="porcelebra" width="550" height="592" id="porcelebra" onMouseOver="MM_swapImage('porcelebra','','imagenes/cecelebra.jpg',1)">
+<p>
+ El 22 de abril se celebra el Día Mundial de la Tierra. Esta fecha fue elegida porque el 22 de abril de 1970 una manifestación en Estados Unidos para que se creara en el Gobierno una agencia ambiental que trabaje sobre las problemáticas medioambientales.
+ </ul>
+</div>
+</center>
+<center>
+<div> <data-role="main" class="ui-content">
+<br> <br> <br> <br> <br> <br> <br> <br> <br>
+<div data-role="collapsible" data-content-theme="false">
+<h1>IMAGENES</h1>
+  <li><img src="imagenes/tierra-7.jpg" alt="sldr7"></li>
+   <li><img src="imagenes/tierra-8.jpg" alt="sldr8"></li>
+</div>
+</div>
+</center>
+</p>
+ </div>
+ </center>
+ <center>
+   
+ <div data-role="main" class="ui-content" align="center">
+ <dive style="width:30%:">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://es.wikipedia.org/wiki/D%C3%ADa_Internacional_de_la_Madre_Tierra"target="_self" data-role="button">
+<h4>QUIERES CONOCER MAS?</h4>
+</a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <h4>Dia de la Madre Tierra</h4>
+  <h4>Andy Cruz Paredez Mendez</h4><img src="imagenes/mdpi.png" width="46" height="46">
+  </div>
+  </div>
+</li>
+</ul>
+</div>
+</div>
+</center>
+ 
+  
+  
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>historia del dia</h1>
+ </div>
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/historia.jpg" name="historia" width="150" height="150" id="historia" onMouseOver="MM_swapImage('historia','','imagenes/historia-2.jpg',1)"> </div>
+  <p>La historia del Día Mundial de la Tierra
+El origen de este día, celebrado mundialmente (aunque no en todas partes), se encuentra en Estados Unidos, durante los 70. Y está asociado, sin duda, a un nombre: Gaylord Nelson. La historia cuenta (a pesar de los curiosos rumores sobre Lenin) que fue este político quién aprovechó un miércoles para organizar una manifestación en defensa del medio ambiente y el ecologismo. Un momento muy estudiado y que venía cociéndose desde la década de los 60 debido a la creciente irresponsabilidad ambiental del gobierno de Estados Unidos. Ya habían gérmenes plantados desde la comunidad científica y estudiantil.</p>
+ <a href="https://www.un.org/es/events/motherearthday/background.shtml"target="_self"data-role="button">¿quieres saber mas?</a>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/mdpi.png" width="46" height="46" alt="pie">
+  </div>
+  <h4>dia de la Madre Tierra</h4>
+  <h4>Andy Cruz Paredez Mendez</h4>
+  </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>la tierra que habitamos</h1>
+ </div>
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/habitamos.png" name="habita" width="648" height="352" id="habita" onMouseOver="MM_swapImage('habita','','imagenes/habitamos-2.jpg',1)"></div>
+  <p>Hacia una tierra sostenible
+La Tierra y sus ecosistemas son nuestro hogar. Para alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras, es necesario promover la armonía con la naturaleza y el planeta.
+Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este día, asumimos, además, la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar esta armonía con la naturaleza y la Madre Tierra.
+</p>
+  </div>
+  <a href="https://www.fundacionaquae.org/aquae-television/noticias/22-abril-dia-mundial-la-tierra/"target="_self"data-role="button">¿quieres saber mas?</a>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/mdpi.png" width="46" height="46" alt="pie">
+  </div>
+<h4>Dia de la Madre Tierra</h4>
+<h4>Andy Cruz Paredez Mendez<h4>
+  </div>
+  </div>
+  
+  
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>dialogo sobre la armonia con la naturaleza</h1>
+ </div>
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/armonia.jpg" name="armo" width="650" height="434" id="armo" onMouseOver="MM_swapImage('armo','','imagenes/armonia-2.jpg',1)"></div>
+  <p>En VerdelaTierra la armonía con la naturaleza es uno de los valores que nos identifica y en el que subyace también nuestra creencia de que es posible y deseable el equilibrio armónico humano-naturaleza, que nos da bienestar, salud y una calidad de vida con respecto al medio ambiente.La armonía con la naturaleza, además, se ha resaltado como un objetivo a alcanzar en el informe “Armonía con la naturaleza”, Diálogos Interactivos de la Asamblea General de Naciones Unidas, elaborado a propósito del Día Internacional de la Madre Tierra y a manera de preámbulo a la Conferencia de las Naciones Unidas sobre el Desarrollo Sostenible que se efectuó en Río de Janeiro (Brasil) en el año 2012.
+</p>
+<a href="https://cmpcc.wordpress.com/category/grupos-de-trabajo/02-armonia-con-la-naturaleza/"target="_self"data-role="button">¿quieres saber mas?</a>
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/mdpi.png" width="46" height="46" alt="pie">
+  </div>
+  <h4>Dia de la Madre Tierra</h4>
+  <h4>Andy Cruz Paredez Mendez</h4>
+  </div>
+  </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1>hacia una tierra sostenible</h1>
+ </div>
+
+  <div data-role="content" align="center">
+   <div>
+    <img src="imagenes/sostenible.jpg" name="soste" width="745" height="615" id="soste" onMouseOver="MM_swapImage('soste','','imagenes/sostenible-2.jpg',1)"></div>
+  <p>La gestión integrada de paisajes requiere comprender los diferentes impactos del uso de la tierra y equilibrar los intereses a menudo contradictorios de los diferentes grupos involucrados.
+
+Imaginemos que usted forma parte del gobierno del país X en África subsahariana. Desea cumplir con el Objetivo de Desarrollo Sostenible No. 1 que reza: “acabar con la pobreza en todas sus formas en todas partes". 
+
+Sin embargo, es consciente de la necesidad de implementar todos los 17 Objetivos, incluido el Objetivo 15, que busca: "Gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad.”
+
+Imagine que usted tiene una gran extensión de pastizales secos donde casi nadie vive y quiere explotarlos de mejor manera, en beneficio de su gente.</p>
+<a href="https://www.fundacionaquae.org/aquae-television/noticias/22-abril-dia-mundial-la-tierra/"target="_self"data-role="button">¿quieres saber mas?</a>
+
+  </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+  <div>
+  <img src="imagenes/mdpi.png" width="46" height="46" alt="pie">
+  </div>
+  <h4>Dia de la Madre Tierra</h4>
+  <h4>Andy Cruz Paredez Mendez</h4>
+  </div>
+  </div>
+
+</body>
+</html>
